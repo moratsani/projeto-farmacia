@@ -4,6 +4,7 @@ import Footer from './components/footer/Footer'
 import NavBar from './components/navBar/NavBar'
 import Home from './components/paginas/home/Home'
 
+
 function App() {
 
   return (
