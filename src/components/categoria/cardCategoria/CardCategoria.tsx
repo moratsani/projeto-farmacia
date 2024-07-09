@@ -8,7 +8,7 @@ interface CardPostagemProps {
 
 function CardPostagem({ categoria }: CardPostagemProps) {
     return (
-        <div className='border flex flex-col rounded-2xl text-gray-800 overflow-hidden justify-between'>
+        <div className='border flex flex-col rounded-2xl text-purple-800 overflow-hidden justify-between'>
             <header className='py-2 px-6 bg-purple-800 text-white font-bold text-2xl'>{categoria.nome}</header>
             <p className='p-8 text-3xl bg-slate-200 h-full'>{categoria.descricao}</p>
             <div className="flex">
